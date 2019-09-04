@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "6bb29fd1-631b-4dd6-9f97-b8ce12950660",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NTU0OTg1LCJleHAiOjE1Njc1NTg1ODUsIm5iZiI6MTU2NzU1NDk4NSwianRpIjoiZzJKV0F3MUY0RklJeE1KRCIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.-TRxsMdq5NTvsbVK-_VEvJmh_RC7RFd6CmDnLCwQ620",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/login",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@ecommerce.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NTU0OTg1LCJleHAiOjE1Njc1NTg1ODUsIm5iZiI6MTU2NzU1NDk4NSwianRpIjoiZzJKV0F3MUY0RklJeE1KRCIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.-TRxsMdq5NTvsbVK-_VEvJmh_RC7RFd6CmDnLCwQ620",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@ecommerce.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NTU0OTg1LCJleHAiOjE1Njc1NTg1ODUsIm5iZiI6MTU2NzU1NDk4NSwianRpIjoiZzJKV0F3MUY0RklJeE1KRCIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.-TRxsMdq5NTvsbVK-_VEvJmh_RC7RFd6CmDnLCwQ620",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/login?email=email@ecommerce.test&password=admin123",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@ecommerce.test"
+						},
+						{
+							"key": "password",
+							"value": "admin123"
+						}
+					]
+				},
+				"description": "Obtain Token\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@ecommerce.test",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"disabled": true
+						}
+					]
+				},
+				"description": "See all Products\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/2?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"2"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@ecommerce.test",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"disabled": true
+						}
+					]
+				},
+				"description": "See one product"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/2?stock=16&name=nombreeditado",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"2"
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "15.45",
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": "16"
+						},
+						{
+							"key": "name",
+							"value": "nombreeditado"
+						}
+					]
+				},
+				"description": "Edit product"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/delete/5?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"delete",
+						"5"
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "15.45",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Delete product\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products?name=productoadicional&price=20.99&stock=12&description=Esto es una descripcion del producto adicional&user_id=2",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "productoadicional"
+						},
+						{
+							"key": "price",
+							"value": "20.99"
+						},
+						{
+							"key": "stock",
+							"value": "12"
+						},
+						{
+							"key": "description",
+							"value": "Esto es una descripcion del producto adicional"
+						},
+						{
+							"key": "user_id",
+							"value": "2"
+						}
+					]
+				},
+				"description": "add product"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/12/like?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"12",
+						"like"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "productoadicional",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "20.99",
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "Esto es una descripcion del producto adicional",
+							"disabled": true
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				},
+				"description": "add like\n"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/12/like?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"12",
+						"like"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "productoadicional",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "20.99",
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "Esto es una descripcion del producto adicional",
+							"disabled": true
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Add another like"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/10/dislike?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"10",
+						"dislike"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "productoadicional",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "20.99",
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "Esto es una descripcion del producto adicional",
+							"disabled": true
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Dislike"
+			},
+			"response": []
+		},
+		{
+			"name": "http://ecommerce.test:8080/api/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9lY29tbWVyY2UudGVzdDo4MDgwXC9hcGlcL2xvZ2luIiwiaWF0IjoxNTY3NjExNjg2LCJleHAiOjE1Njc2MTUyODYsIm5iZiI6MTU2NzYxMTY4NiwianRpIjoiMDZzdHpRZjMzblBjQW1pRiIsInN1YiI6MSwicHJ2IjoiNjRiNDk5ZDQ5NWZhYWI5ZjQzMDVmYTBhZmNkODQzMmNjYjliNTY3MyJ9.2y169HCS-Q31wm_qN_p94zovOEuv4y5WPnGM7WCVeCw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ecommerce.test:8080/api/products/10/dislike?",
+					"protocol": "http",
+					"host": [
+						"ecommerce",
+						"test"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"10",
+						"dislike"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "productoadicional",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "20.99",
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": "12",
+							"disabled": true
+						},
+						{
+							"key": "description",
+							"value": "Esto es una descripcion del producto adicional",
+							"disabled": true
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Another dislike"
+			},
+			"response": []
+		}
+	]
+}
