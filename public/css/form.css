@@ -1,0 +1,72 @@
+.dash_form_container{
+    width: fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    margin-bottom: 20px;
+}
+
+.form_add_product{
+    width: 350px;
+}
+.form_add_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+.form_add_row .form_add_row_inner{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-right: 10%;
+}.form_add_row .form_add_row_inner:nth-last-child(1){
+    margin: 0;
+}
+.form_add_row .form_add_row_inner .form_add_input{
+    width: 80px;
+    padding: 10px 8px;
+    text-align: center;
+}
+.form_add_row .form_add_row_inner .name_of_row{
+    width: fit-content;
+    margin-right: 10px; 
+}
+.name_of_row{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    font-size: 0.85em;
+    font-weight: 500;
+    color: #7f7f8f;
+}
+.form_add_input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+
+    border-radius: 5px;
+    font-size: 0.9em;
+    background: #e7e9ef;
+    border: 1px solid #e7e9ef;
+    color: #000;
+}
+.form_add_input:focus{
+    outline: none;
+}
+
+.form_add_input_longText{
+    height: 100px;
+    resize: none;
+}
+
+
+.form_btn{
+    font-size: 0.8em;
+    padding: 10px 50px;
+    cursor: pointer
+}
